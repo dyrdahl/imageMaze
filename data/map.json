@@ -1,49 +1,1369 @@
 {
-    "start_state" : "0,0",
+  "start_state": "0,0-a",
+  "states": {
+    "0,0-a": {
+      "bk_img": "walk_imgs/pos_1_a.jpg",
+      "next_state": [
+        {
+          "state_name": "0,1-a",
+          "key_input": 87
+        },
+        {
+          "state_name": "0,0-b",
+          "key_input": 68
+        },
+        {
+          "state_name": "0,0-c",
+          "key_input": 83
+        },
+        {
+          "state_name": "0,0-d",
+          "key_input": 65
+        }
+      ]
+    },
+    "0,0-b": {
+      "bk_img": "walk_imgs/pos_1_b.jpg",
+      "next_state": [
+        {
+          "state_name": "1,0-b",
+          "key_input": 87
+        },
+        {
+          "state_name": "0,0-c",
+          "key_input": 68
+        },
+        {
+          "state_name": "0,0-d",
+          "key_input": 83
+        },
+        {
+          "state_name": "0,0-a",
+          "key_input": 65
+        }
+      ]
+    },
+    "0,0-c": {
+      "bk_img": "walk_imgs/pos_1_c.jpg",
+      "next_state": [
+        {
+          "state_name": "0,0-c",
+          "key_input": 87
+        },
+        {
+          "state_name": "0,0-d",
+          "key_input": 68
+        },
+        {
+          "state_name": "0,0-a",
+          "key_input": 83
+        },
+        {
+          "state_name": "0,0-b",
+          "key_input": 65
+        }
+      ]
+    },
+    "0,0-d": {
+      "bk_img": "walk_imgs/pos_1_d.jpg",
+      "next_state": [
+        {
+          "state_name": "0,0-d",
+          "key_input": 87
+        },
+        {
+          "state_name": "0,0-a",
+          "key_input": 68
+        },
+        {
+          "state_name": "0,0-b",
+          "key_input": 83
+        },
+        {
+          "state_name": "0,0-c",
+          "key_input": 65
+        }
+      ]
+    },
 
-    "states" : { 
-    
-        "0,0": {
-            "bk_img" : "walk_imgs/pos_1_a.jpg",
-            "other_imgs": [ {
-                                "src" : "imgs/tomato.gif",
-                                "x_cord" : 100,
-                                "y_cord" : 100,
-                                "width" : 500,
-                                "height" : 500
-                            }
-                        ],
-            "next_state" : [ {
-                                "state_name": "0,1",
-                                "key_input" : 38
-                             },
-                             { 
-                                "state_name": "0,0-b",
-                                "key_input" : 39
-                             }
-                            ]
+
+    "0,1-a": {
+      "bk_img": "walk_imgs/pos_2_a.jpg",
+      "next_state": [
+        {
+          "state_name": "0,2-a",
+          "key_input": 87
         },
-        "0,0-b": {
-            "bk_img" : "walk_imgs/pos_1_b.jpg",
-            "next_state" : [ { 
-                                "state_name": "0,0",
-                                "key_input" : 37
-                             }
-                            ]   
+        {
+          "state_name": "0,1-b",
+          "key_input": 68
         },
-        "0,1": {
-            "bk_img" : "walk_imgs/pos_2_a.jpg",
-            "next_state" : [ { 
-                                "state_name": "0,1",
-                                "key_input" : 38
-                             },
-                             { 
-                                "state_name": "0,0",
-                                "key_input" : 40
-                             }
-   
-                            ]   
-        } 
+        {
+          "state_name": "0,1-c",
+          "key_input": 83
+        },
+        {
+          "state_name": "0,1-d",
+          "key_input": 65
+        }
+      ]
+    },
+    "0,1-b": {
+      "bk_img": "walk_imgs/pos_2_b.jpg",
+      "next_state": [
+        {
+          "state_name": "0,1-b",
+          "key_input": 87
+        },
+        {
+          "state_name": "0,1-c",
+          "key_input": 68
+        },
+        {
+          "state_name": "0,1-d",
+          "key_input": 83
+        },
+        {
+          "state_name": "0,1-a",
+          "key_input": 65
+        }
+      ]
+    },
+    "0,1-c": {
+      "bk_img": "walk_imgs/pos_2_c.jpg",
+      "next_state": [
+        {
+          "state_name": "0,0-c",
+          "key_input": 87
+        },
+        {
+          "state_name": "0,1-d",
+          "key_input": 68
+        },
+        {
+          "state_name": "0,1-a",
+          "key_input": 83
+        },
+        {
+          "state_name": "0,1-b",
+          "key_input": 65
+        }
+      ]
+    },
+    "0,1-d": {
+      "bk_img": "walk_imgs/pos_2_d.jpg",
+      "next_state": [
+        {
+          "state_name": "0,1-d",
+          "key_input": 87
+        },
+        {
+          "state_name": "0,1-a",
+          "key_input": 68
+        },
+        {
+          "state_name": "0,1-b",
+          "key_input": 83
+        },
+        {
+          "state_name": "0,1-c",
+          "key_input": 65
+        }
+      ]
+    },
+
+
+    "0,2-a": {
+      "bk_img": "walk_imgs/pos_3_a.jpg",
+      "next_state": [
+        {
+          "state_name": "0,3-a",
+          "key_input": 87
+        },
+        {
+          "state_name": "0,2-b",
+          "key_input": 68
+        },
+        {
+          "state_name": "0,2-c",
+          "key_input": 83
+        },
+        {
+          "state_name": "0,2-d",
+          "key_input": 65
+        }
+      ]
+    },
+    "0,2-b": {
+      "bk_img": "walk_imgs/pos_3_b.jpg",
+      "next_state": [
+        {
+          "state_name": "0,2-b",
+          "key_input": 87
+        },
+        {
+          "state_name": "0,2-c",
+          "key_input": 68
+        },
+        {
+          "state_name": "0,2-d",
+          "key_input": 83
+        },
+        {
+          "state_name": "0,2-a",
+          "key_input": 65
+        }
+      ]
+    },
+    "0,2-c": {
+      "bk_img": "walk_imgs/pos_3_c.jpg",
+      "next_state": [
+        {
+          "state_name": "0,1-c",
+          "key_input": 87
+        },
+        {
+          "state_name": "0,2-d",
+          "key_input": 68
+        },
+        {
+          "state_name": "0,2-a",
+          "key_input": 83
+        },
+        {
+          "state_name": "0,2-b",
+          "key_input": 65
+        }
+      ]
+    },
+    "0,2-d": {
+      "bk_img": "walk_imgs/pos_3_d.jpg",
+      "next_state": [
+        {
+          "state_name": "0,2-d",
+          "key_input": 87
+        },
+        {
+          "state_name": "0,2-a",
+          "key_input": 68
+        },
+        {
+          "state_name": "0,2-b",
+          "key_input": 83
+        },
+        {
+          "state_name": "0,2-c",
+          "key_input": 65
+        }
+      ]
+    },
+
+    "0,3-a": {
+      "bk_img": "walk_imgs/pos_4_a.jpg",
+      "next_state": [
+        {
+          "state_name": "0,4-a",
+          "key_input": 87
+        },
+        {
+          "state_name": "0,3-b",
+          "key_input": 68
+        },
+        {
+          "state_name": "0,3-c",
+          "key_input": 83
+        },
+        {
+          "state_name": "0,3-d",
+          "key_input": 65
+        }
+      ]
+    },
+    "0,3-b": {
+      "bk_img": "walk_imgs/pos_4_b.jpg",
+      "next_state": [
+        {
+          "state_name": "0,3-b",
+          "key_input": 87
+        },
+        {
+          "state_name": "0,3-c",
+          "key_input": 68
+        },
+        {
+          "state_name": "0,3-d",
+          "key_input": 83
+        },
+        {
+          "state_name": "0,3-a",
+          "key_input": 65
+        }
+      ]
+    },
+    "0,3-c": {
+      "bk_img": "walk_imgs/pos_4_c.jpg",
+      "next_state": [
+        {
+          "state_name": "0,2-c",
+          "key_input": 87
+        },
+        {
+          "state_name": "0,3-d",
+          "key_input": 68
+        },
+        {
+          "state_name": "0,3-a",
+          "key_input": 83
+        },
+        {
+          "state_name": "0,3-b",
+          "key_input": 65
+        }
+      ]
+    },
+    "0,3-d": {
+      "bk_img": "walk_imgs/pos_4_d.jpg",
+      "next_state": [
+        {
+          "state_name": "0,3-d",
+          "key_input": 87
+        },
+        {
+          "state_name": "0,3-a",
+          "key_input": 68
+        },
+        {
+          "state_name": "0,3-b",
+          "key_input": 83
+        },
+        {
+          "state_name": "0,3-c",
+          "key_input": 65
+        }
+      ]
+    },
+
+    "0,4-a": {
+      "bk_img": "walk_imgs/pos_5_a.jpg",
+      "next_state": [
+        {
+          "state_name": "0,4-a",
+          "key_input": 87
+        },
+        {
+          "state_name": "0,4-b",
+          "key_input": 68
+        },
+        {
+          "state_name": "0,4-c",
+          "key_input": 83
+        },
+        {
+          "state_name": "0,4-d",
+          "key_input": 65
+        }
+      ]
+    },
+    "0,4-b": {
+      "bk_img": "walk_imgs/pos_5_b.jpg",
+      "next_state": [
+        {
+          "state_name": "1,4-b",
+          "key_input": 87
+        },
+        {
+          "state_name": "0,4-c",
+          "key_input": 68
+        },
+        {
+          "state_name": "0,4-d",
+          "key_input": 83
+        },
+        {
+          "state_name": "0,4-a",
+          "key_input": 65
+        }
+      ]
+    },
+    "0,4-c": {
+      "bk_img": "walk_imgs/pos_5_c.jpg",
+      "next_state": [
+        {
+          "state_name": "0,3-c",
+          "key_input": 87
+        },
+        {
+          "state_name": "0,4-d",
+          "key_input": 68
+        },
+        {
+          "state_name": "0,4-a",
+          "key_input": 83
+        },
+        {
+          "state_name": "0,4-b",
+          "key_input": 65
+        }
+      ]
+    },
+    "0,4-d": {
+      "bk_img": "walk_imgs/pos_5_d.jpg",
+      "next_state": [
+        {
+          "state_name": "0,4-d",
+          "key_input": 87
+        },
+        {
+          "state_name": "0,4-a",
+          "key_input": 68
+        },
+        {
+          "state_name": "0,4-b",
+          "key_input": 83
+        },
+        {
+          "state_name": "0,4-c",
+          "key_input": 65
+        }
+      ]
+    },
+
+    "1,4-b": {
+      "bk_img": "walk_imgs/pos_6_b.jpg",
+      "next_state": [
+        {
+          "state_name": "2,4-b",
+          "key_input": 87
+        },
+        {
+          "state_name": "1,4-c",
+          "key_input": 68
+        },
+        {
+          "state_name": "1,4-d",
+          "key_input": 83
+        },
+        {
+          "state_name": "1,4-a",
+          "key_input": 65
+        }
+      ]
+    },
+    "1,4-c": {
+      "bk_img": "walk_imgs/pos_6_c.jpg",
+      "next_state": [
+        {
+          "state_name": "1,4-c",
+          "key_input": 87
+        },
+        {
+          "state_name": "1,4-d",
+          "key_input": 68
+        },
+        {
+          "state_name": "1,4-a",
+          "key_input": 83
+        },
+        {
+          "state_name": "1,4-b",
+          "key_input": 65
+        }
+      ]
+    },
+    "1,4-d": {
+      "bk_img": "walk_imgs/pos_6_d.jpg",
+      "next_state": [
+        {
+          "state_name": "0,4-d",
+          "key_input": 87
+        },
+        {
+          "state_name": "1,4-a",
+          "key_input": 68
+        },
+        {
+          "state_name": "1,4-b",
+          "key_input": 83
+        },
+        {
+          "state_name": "1,4-c",
+          "key_input": 65
+        }
+      ]
+    },
+    "1,4-a": {
+      "bk_img": "walk_imgs/pos_6_a.jpg",
+      "next_state": [
+        {
+          "state_name": "1,4-a",
+          "key_input": 87
+        },
+        {
+          "state_name": "1,4-b",
+          "key_input": 68
+        },
+        {
+          "state_name": "1,4-c",
+          "key_input": 83
+        },
+        {
+          "state_name": "1,4-d",
+          "key_input": 65
+        }
+      ]
+    },
+
+    "2,4-b": {
+      "bk_img": "walk_imgs/pos_7_b.jpg",
+      "next_state": [
+        {
+          "state_name": "3,4-b",
+          "key_input": 87
+        },
+        {
+          "state_name": "2,4-c",
+          "key_input": 68
+        },
+        {
+          "state_name": "2,4-d",
+          "key_input": 83
+        },
+        {
+          "state_name": "2,4-a",
+          "key_input": 65
+        }
+      ]
+    },
+    "2,4-c": {
+      "bk_img": "walk_imgs/pos_7_c.jpg",
+      "next_state": [
+        {
+          "state_name": "2,4-c",
+          "key_input": 87
+        },
+        {
+          "state_name": "2,4-d",
+          "key_input": 68
+        },
+        {
+          "state_name": "2,4-a",
+          "key_input": 83
+        },
+        {
+          "state_name": "2,4-b",
+          "key_input": 65
+        }
+      ]
+    },
+    "2,4-d": {
+      "bk_img": "walk_imgs/pos_7_d.jpg",
+      "next_state": [
+        {
+          "state_name": "1,4-d",
+          "key_input": 87
+        },
+        {
+          "state_name": "2,4-a",
+          "key_input": 68
+        },
+        {
+          "state_name": "2,4-b",
+          "key_input": 83
+        },
+        {
+          "state_name": "2,4-c",
+          "key_input": 65
+        }
+      ]
+    },
+    "2,4-a": {
+      "bk_img": "walk_imgs/pos_7_a.jpg",
+      "next_state": [
+        {
+          "state_name": "2,4-a",
+          "key_input": 87
+        },
+        {
+          "state_name": "2,4-b",
+          "key_input": 68
+        },
+        {
+          "state_name": "2,4-c",
+          "key_input": 83
+        },
+        {
+          "state_name": "2,4-d",
+          "key_input": 65
+        }
+      ]
+    },
+
+    "3,4-b": {
+      "bk_img": "walk_imgs/pos_8_b.jpg",
+      "next_state": [
+        {
+          "state_name": "4,4-b",
+          "key_input": 87
+        },
+        {
+          "state_name": "3,4-c",
+          "key_input": 68
+        },
+        {
+          "state_name": "3,4-d",
+          "key_input": 83
+        },
+        {
+          "state_name": "3,4-a",
+          "key_input": 65
+        }
+      ]
+    },
+    "3,4-c": {
+      "bk_img": "walk_imgs/pos_8_c.jpg",
+      "next_state": [
+        {
+          "state_name": "3,4-c",
+          "key_input": 87
+        },
+        {
+          "state_name": "3,4-d",
+          "key_input": 68
+        },
+        {
+          "state_name": "3,4-a",
+          "key_input": 83
+        },
+        {
+          "state_name": "3,4-b",
+          "key_input": 65
+        }
+      ]
+    },
+    "3,4-d": {
+      "bk_img": "walk_imgs/pos_8_d.jpg",
+      "next_state": [
+        {
+          "state_name": "2,4-d",
+          "key_input": 87
+        },
+        {
+          "state_name": "3,4-a",
+          "key_input": 68
+        },
+        {
+          "state_name": "3,4-b",
+          "key_input": 83
+        },
+        {
+          "state_name": "3,4-c",
+          "key_input": 65
+        }
+      ]
+    },
+    "3,4-a": {
+      "bk_img": "walk_imgs/pos_8_a.jpg",
+      "next_state": [
+        {
+          "state_name": "3,4-a",
+          "key_input": 87
+        },
+        {
+          "state_name": "3,4-b",
+          "key_input": 68
+        },
+        {
+          "state_name": "3,4-c",
+          "key_input": 83
+        },
+        {
+          "state_name": "3,4-d",
+          "key_input": 65
+        }
+      ]
+    },
+
+    "4,4-b": {
+      "bk_img": "walk_imgs/pos_9_b.jpg",
+      "next_state": [
+        {
+          "state_name": "4,4-b",
+          "key_input": 87
+        },
+        {
+          "state_name": "4,4-c",
+          "key_input": 68
+        },
+        {
+          "state_name": "4,4-d",
+          "key_input": 83
+        },
+        {
+          "state_name": "4,4-a",
+          "key_input": 65
+        }
+      ]
+    },
+    "4,4-c": {
+      "bk_img": "walk_imgs/pos_9_c.jpg",
+      "next_state": [
+        {
+          "state_name": "4,3-c",
+          "key_input": 87
+        },
+        {
+          "state_name": "4,4-d",
+          "key_input": 68
+        },
+        {
+          "state_name": "4,4-a",
+          "key_input": 83
+        },
+        {
+          "state_name": "4,4-b",
+          "key_input": 65
+        }
+      ]
+    },
+    "4,4-d": {
+      "bk_img": "walk_imgs/pos_9_d.jpg",
+      "next_state": [
+        {
+          "state_name": "3,4-d",
+          "key_input": 87
+        },
+        {
+          "state_name": "4,4-a",
+          "key_input": 68
+        },
+        {
+          "state_name": "4,4-b",
+          "key_input": 83
+        },
+        {
+          "state_name": "4,4-c",
+          "key_input": 65
+        }
+      ]
+    },
+    "4,4-a": {
+      "bk_img": "walk_imgs/pos_9_a.jpg",
+      "next_state": [
+        {
+          "state_name": "4,4-a",
+          "key_input": 87
+        },
+        {
+          "state_name": "4,4-b",
+          "key_input": 68
+        },
+        {
+          "state_name": "4,4-c",
+          "key_input": 83
+        },
+        {
+          "state_name": "4,4-d",
+          "key_input": 65
+        }
+      ]
+    },
+
+
+    "4,3-c": {
+      "bk_img": "walk_imgs/pos_10_c.jpg",
+      "next_state": [
+        {
+          "state_name": "4,2-c",
+          "key_input": 87
+        },
+        {
+          "state_name": "4,3-d",
+          "key_input": 68
+        },
+        {
+          "state_name": "4,3-a",
+          "key_input": 83
+        },
+        {
+          "state_name": "4,3-b",
+          "key_input": 65
+        }
+      ]
+    },
+    "4,3-d": {
+      "bk_img": "walk_imgs/pos_10_d.jpg",
+      "next_state": [
+        {
+          "state_name": "4,3-d",
+          "key_input": 87
+        },
+        {
+          "state_name": "4,3-a",
+          "key_input": 68
+        },
+        {
+          "state_name": "4,3-b",
+          "key_input": 83
+        },
+        {
+          "state_name": "4,3-c",
+          "key_input": 65
+        }
+      ]
+    },
+    "4,3-a": {
+      "bk_img": "walk_imgs/pos_10_a.jpg",
+      "next_state": [
+        {
+          "state_name": "4,4-a",
+          "key_input": 87
+        },
+        {
+          "state_name": "4,3-b",
+          "key_input": 68
+        },
+        {
+          "state_name": "4,3-c",
+          "key_input": 83
+        },
+        {
+          "state_name": "4,3-d",
+          "key_input": 65
+        }
+      ]
+    },
+    "4,3-b": {
+      "bk_img": "walk_imgs/pos_10_b.jpg",
+      "next_state": [
+        {
+          "state_name": "4,3-b",
+          "key_input": 87
+        },
+        {
+          "state_name": "4,3-c",
+          "key_input": 68
+        },
+        {
+          "state_name": "4,3-d",
+          "key_input": 83
+        },
+        {
+          "state_name": "4,3-a",
+          "key_input": 65
+        }
+      ]
+    },
+
+    "4,2-c": {
+      "bk_img": "walk_imgs/pos_11_c.jpg",
+      "next_state": [
+        {
+          "state_name": "4,1-c",
+          "key_input": 87
+        },
+        {
+          "state_name": "4,2-d",
+          "key_input": 68
+        },
+        {
+          "state_name": "4,2-a",
+          "key_input": 83
+        },
+        {
+          "state_name": "4,2-b",
+          "key_input": 65
+        }
+      ]
+    },
+    "4,2-d": {
+      "bk_img": "walk_imgs/pos_11_d.jpg",
+      "next_state": [
+        {
+          "state_name": "4,2-d",
+          "key_input": 87
+        },
+        {
+          "state_name": "4,2-a",
+          "key_input": 68
+        },
+        {
+          "state_name": "4,2-b",
+          "key_input": 83
+        },
+        {
+          "state_name": "4,2-c",
+          "key_input": 65
+        }
+      ]
+    },
+    "4,2-a": {
+      "bk_img": "walk_imgs/pos_11_a.jpg",
+      "next_state": [
+        {
+          "state_name": "4,3-a",
+          "key_input": 87
+        },
+        {
+          "state_name": "4,2-b",
+          "key_input": 68
+        },
+        {
+          "state_name": "4,2-c",
+          "key_input": 83
+        },
+        {
+          "state_name": "4,2-d",
+          "key_input": 65
+        }
+      ]
+    },
+    "4,2-b": {
+      "bk_img": "walk_imgs/pos_11_b.jpg",
+      "next_state": [
+        {
+          "state_name": "4,2-b",
+          "key_input": 87
+        },
+        {
+          "state_name": "4,2-c",
+          "key_input": 68
+        },
+        {
+          "state_name": "4,2-d",
+          "key_input": 83
+        },
+        {
+          "state_name": "4,2-a",
+          "key_input": 65
+        }
+      ]
+    },
+
+    "4,1-c": {
+      "bk_img": "walk_imgs/pos_12_c.jpg",
+      "next_state": [
+        {
+          "state_name": "4,0-c",
+          "key_input": 87
+        },
+        {
+          "state_name": "4,1-d",
+          "key_input": 68
+        },
+        {
+          "state_name": "4,1-a",
+          "key_input": 83
+        },
+        {
+          "state_name": "4,1-b",
+          "key_input": 65
+        }
+      ]
+    },
+    "4,1-d": {
+      "bk_img": "walk_imgs/pos_12_d.jpg",
+      "next_state": [
+        {
+          "state_name": "4,1-d",
+          "key_input": 87
+        },
+        {
+          "state_name": "4,1-a",
+          "key_input": 68
+        },
+        {
+          "state_name": "4,1-b",
+          "key_input": 83
+        },
+        {
+          "state_name": "4,1-c",
+          "key_input": 65
+        }
+      ]
+    },
+    "4,1-a": {
+      "bk_img": "walk_imgs/pos_12_a.jpg",
+      "next_state": [
+        {
+          "state_name": "4,2-a",
+          "key_input": 87
+        },
+        {
+          "state_name": "4,1-b",
+          "key_input": 68
+        },
+        {
+          "state_name": "4,1-c",
+          "key_input": 83
+        },
+        {
+          "state_name": "4,1-d",
+          "key_input": 65
+        }
+      ]
+    },
+    "4,1-b": {
+      "bk_img": "walk_imgs/pos_12_b.jpg",
+      "next_state": [
+        {
+          "state_name": "4,1-b",
+          "key_input": 87
+        },
+        {
+          "state_name": "4,1-c",
+          "key_input": 68
+        },
+        {
+          "state_name": "4,1-d",
+          "key_input": 83
+        },
+        {
+          "state_name": "4,1-a",
+          "key_input": 65
+        }
+      ]
+    },
+
+    "4,0-c": {
+      "bk_img": "walk_imgs/pos_13_c.jpg",
+      "next_state": [
+        {
+          "state_name": "4,0-c",
+          "key_input": 87
+        },
+        {
+          "state_name": "4,0-d",
+          "key_input": 68
+        },
+        {
+          "state_name": "4,0-a",
+          "key_input": 83
+        },
+        {
+          "state_name": "4,0-b",
+          "key_input": 65
+        }
+      ]
+    },
+    "4,0-d": {
+      "bk_img": "walk_imgs/pos_13_d.jpg",
+      "next_state": [
+        {
+          "state_name": "3,0-d",
+          "key_input": 87
+        },
+        {
+          "state_name": "4,0-a",
+          "key_input": 68
+        },
+        {
+          "state_name": "4,0-b",
+          "key_input": 83
+        },
+        {
+          "state_name": "4,0-c",
+          "key_input": 65
+        }
+      ]
+    },
+    "4,0-a": {
+      "bk_img": "walk_imgs/pos_13_a.jpg",
+      "next_state": [
+        {
+          "state_name": "4,1-a",
+          "key_input": 87
+        },
+        {
+          "state_name": "4,0-b",
+          "key_input": 68
+        },
+        {
+          "state_name": "4,0-c",
+          "key_input": 83
+        },
+        {
+          "state_name": "4,0-d",
+          "key_input": 65
+        }
+      ]
+    },
+    "4,0-b": {
+      "bk_img": "walk_imgs/pos_13_b.jpg",
+      "next_state": [
+        {
+          "state_name": "4,0-b",
+          "key_input": 87
+        },
+        {
+          "state_name": "4,0-c",
+          "key_input": 68
+        },
+        {
+          "state_name": "4,0-d",
+          "key_input": 83
+        },
+        {
+          "state_name": "4,0-a",
+          "key_input": 65
+        }
+      ]
+    },
+
+    "3,0-d": {
+      "bk_img": "walk_imgs/pos_14_d.jpg",
+      "next_state": [
+        {
+          "state_name": "2,0-d",
+          "key_input": 87
+        },
+        {
+          "state_name": "3,0-a",
+          "key_input": 68
+        },
+        {
+          "state_name": "3,0-b",
+          "key_input": 83
+        },
+        {
+          "state_name": "3,0-c",
+          "key_input": 65
+        }
+      ]
+    },
+    "3,0-a": {
+      "bk_img": "walk_imgs/pos_14_a.jpg",
+      "next_state": [
+        {
+          "state_name": "3,0-a",
+          "key_input": 87
+        },
+        {
+          "state_name": "3,0-b",
+          "key_input": 68
+        },
+        {
+          "state_name": "3,0-c",
+          "key_input": 83
+        },
+        {
+          "state_name": "3,0-d",
+          "key_input": 65
+        }
+      ]
+    },
+    "3,0-b": {
+      "bk_img": "walk_imgs/pos_14_b.jpg",
+      "next_state": [
+        {
+          "state_name": "4,0-b",
+          "key_input": 87
+        },
+        {
+          "state_name": "3,0-c",
+          "key_input": 68
+        },
+        {
+          "state_name": "3,0-d",
+          "key_input": 83
+        },
+        {
+          "state_name": "3,0-a",
+          "key_input": 65
+        }
+      ]
+    },
+    "3,0-c": {
+      "bk_img": "walk_imgs/pos_14_c.jpg",
+      "next_state": [
+        {
+          "state_name": "3,0-c",
+          "key_input": 87
+        },
+        {
+          "state_name": "3,0-d",
+          "key_input": 68
+        },
+        {
+          "state_name": "3,0-a",
+          "key_input": 83
+        },
+        {
+          "state_name": "3,0-b",
+          "key_input": 65
+        }
+      ]
+    },
+
+    "2,0-d": {
+      "bk_img": "walk_imgs/pos_15_d.jpg",
+      "next_state": [
+        {
+          "state_name": "1,0-d",
+          "key_input": 87
+        },
+        {
+          "state_name": "2,0-a",
+          "key_input": 68
+        },
+        {
+          "state_name": "2,0-b",
+          "key_input": 83
+        },
+        {
+          "state_name": "2,0-c",
+          "key_input": 65
+        }
+      ]
+    },
+    "2,0-a": {
+      "bk_img": "walk_imgs/pos_15_a.jpg",
+      "next_state": [
+        {
+          "state_name": "2,0-a",
+          "key_input": 87
+        },
+        {
+          "state_name": "2,0-b",
+          "key_input": 68
+        },
+        {
+          "state_name": "2,0-c",
+          "key_input": 83
+        },
+        {
+          "state_name": "2,0-d",
+          "key_input": 65
+        }
+      ]
+    },
+    "2,0-b": {
+      "bk_img": "walk_imgs/pos_15_b.jpg",
+      "next_state": [
+        {
+          "state_name": "3,0-b",
+          "key_input": 87
+        },
+        {
+          "state_name": "2,0-c",
+          "key_input": 68
+        },
+        {
+          "state_name": "2,0-d",
+          "key_input": 83
+        },
+        {
+          "state_name": "2,0-a",
+          "key_input": 65
+        }
+      ]
+    },
+    "2,0-c": {
+      "bk_img": "walk_imgs/pos_15_c.jpg",
+      "next_state": [
+        {
+          "state_name": "2,0-c",
+          "key_input": 87
+        },
+        {
+          "state_name": "2,0-d",
+          "key_input": 68
+        },
+        {
+          "state_name": "2,0-a",
+          "key_input": 83
+        },
+        {
+          "state_name": "2,0-b",
+          "key_input": 65
+        }
+      ]
+    },
+
+
+    "1,0-d": {
+      "bk_img": "walk_imgs/pos_16_d.jpg",
+      "next_state": [
+        {
+          "state_name": "0,0-d",
+          "key_input": 87
+        },
+        {
+          "state_name": "1,0-a",
+          "key_input": 68
+        },
+        {
+          "state_name": "1,0-b",
+          "key_input": 83
+        },
+        {
+          "state_name": "1,0-c",
+          "key_input": 65
+        }
+      ]
+    },
+    "1,0-a": {
+      "bk_img": "walk_imgs/pos_16_a.jpg",
+      "next_state": [
+        {
+          "state_name": "1,0-a",
+          "key_input": 87
+        },
+        {
+          "state_name": "1,0-b",
+          "key_input": 68
+        },
+        {
+          "state_name": "1,0-c",
+          "key_input": 83
+        },
+        {
+          "state_name": "1,0-d",
+          "key_input": 65
+        }
+      ]
+    },
+    "1,0-b": {
+      "bk_img": "walk_imgs/pos_16_b.jpg",
+      "next_state": [
+        {
+          "state_name": "2,0-b",
+          "key_input": 87
+        },
+        {
+          "state_name": "1,0-c",
+          "key_input": 68
+        },
+        {
+          "state_name": "1,0-d",
+          "key_input": 83
+        },
+        {
+          "state_name": "1,0-a",
+          "key_input": 65
+        }
+      ]
+    },
+    "1,0-c": {
+      "bk_img": "walk_imgs/pos_16_c.jpg",
+      "next_state": [
+        {
+          "state_name": "1,0-c",
+          "key_input": 87
+        },
+        {
+          "state_name": "1,0-d",
+          "key_input": 68
+        },
+        {
+          "state_name": "1,0-a",
+          "key_input": 83
+        },
+        {
+          "state_name": "1,0-b",
+          "key_input": 65
+        }
+      ]
     }
+  }
 }
 
